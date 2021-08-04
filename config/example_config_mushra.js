@@ -19,7 +19,7 @@ var TestConfig = {
   "RequireMaxRating": false,
   "AudioRoot": "",
   "Testsets": [
-    
+
     //easy one
     {
       "Advise": "<ol style='text-align:left'><li>Please listen to <b>ALL</b> samples first. Listen <b>TO THE END</b> of each.</li> <li>Then rate them based on their <b>QUALITY</b></li></ol>",
@@ -86,14 +86,14 @@ var TestConfig = {
       "Name": "Denoising",
       "TestID": "denoise_5",
       "Files": {
-            "WUNET": "audio/samples/DENOISE_CANTAMUS/WUNet/Tenor_1_315.wav",
-            "FSN": "audio/samples/DENOISE_CANTAMUS/FSN_NEW/Tenor_1_315.wav",
-            "NOISY": "audio/samples/DENOISE_CANTAMUS/NOISY/Tenor_1_315.wav",
+            "WUNET": "audio/samples/DENOISE_CANTAMUS/WUNet/Tenor_294_1696.wav",
+            "FSN": "audio/samples/DENOISE_CANTAMUS/FSN_NEW/Tenor_294_1696.wav",
+            "NOISY": "audio/samples/DENOISE_CANTAMUS/NOISY/Tenor_294_1696.wav",
         }
     },
     
     {
-      "Advise": "Please listen to <b>reference</b> first. Then listen to the test items below and rate their <b>SIMILARITY compared to the reference</b>.",
+      "Advise": "<ol style='text-align:left'><li>Please listen to <b>REFERENCE</b> first</li><li>Then listen to <b>ALL</b> samples (Test Items). Listen <b>TO THE END</b> of each.</li> <li>Then rate them based on <b>how similar they are to the REFERENCE</b></li></ol>",
       "Name": "Leakage Removal",
       "TestID": "lrm_0",
       "Files": {
@@ -105,7 +105,7 @@ var TestConfig = {
     },
 
     {
-      "Advise": "Please listen to <b>reference</b> first. Then listen to the test items below and rate their <b>SIMILARITY compared to the reference</b>.",
+      "Advise": "<ol style='text-align:left'><li>Please listen to <b>REFERENCE</b> first</li><li>Then listen to <b>ALL</b> samples (Test Items). Listen <b>TO THE END</b> of each.</li> <li>Then rate them based on <b>how similar they are to the REFERENCE</b></li></ol>",
       "Name": "Leakage Removal",
       "TestID": "lrm_1",
       "Files": {
@@ -117,7 +117,7 @@ var TestConfig = {
     },
 
     {
-      "Advise": "Please listen to <b>reference</b> first. Then listen to the test items below and rate their <b>SIMILARITY compared to the reference</b>.",
+      "Advise": "<ol style='text-align:left'><li>Please listen to <b>REFERENCE</b> first</li><li>Then listen to <b>ALL</b> samples (Test Items). Listen <b>TO THE END</b> of each.</li> <li>Then rate them based on <b>how similar they are to the REFERENCE</b></li></ol>",
       "Name": "Leakage Removal",
       "TestID": "lrm_2",
       "Files": {
@@ -129,7 +129,7 @@ var TestConfig = {
     },
 
     {
-      "Advise": "Please listen to <b>reference</b> first. Then listen to the test items below and rate their <b>SIMILARITY compared to the reference</b>.",
+      "Advise": "<ol style='text-align:left'><li>Please listen to <b>REFERENCE</b> first</li><li>Then listen to <b>ALL</b> samples (Test Items). Listen <b>TO THE END</b> of each.</li> <li>Then rate them based on <b>how similar they are to the REFERENCE</b></li></ol>",
       "Name": "Leakage Removal",
       "TestID": "lrm_3",
       "Files": {
@@ -141,7 +141,7 @@ var TestConfig = {
     },
 
     {
-      "Advise": "Please listen to <b>reference</b> first. Then listen to the test items below and rate their <b>SIMILARITY compared to the reference</b>.",
+      "Advise": "<ol style='text-align:left'><li>Please listen to <b>REFERENCE</b> first</li><li>Then listen to <b>ALL</b> samples (Test Items). Listen <b>TO THE END</b> of each.</li> <li>Then rate them based on <b>how similar they are to the REFERENCE</b></li></ol>",
       "Name": "Leakage Removal",
       "TestID": "lrm_4",
       "Files": {
@@ -153,7 +153,7 @@ var TestConfig = {
     },
 
     {
-      "Advise": "Please listen to <b>reference</b> first. Then listen to the test items below and rate their <b>SIMILARITY compared to the reference</b>.",
+      "Advise": "<ol style='text-align:left'><li>Please listen to <b>REFERENCE</b> first</li><li>Then listen to <b>ALL</b> samples (Test Items). Listen <b>TO THE END</b> of each.</li> <li>Then rate them based on <b>how similar they are to the REFERENCE</b></li></ol>",
       "Name": "Leakage Removal",
       "TestID": "lrm_5",
       "Files": {

@@ -73,7 +73,7 @@
                 <li>Listen through <b>all</b> test files and test sets before you do any ratings to get used to the material.</li>
                 <li>Listen <b>until the end</b> and listen <b>carefully</b></li>
                 <li>Try to rate the overall impression of a test item and don't concentrate on single aspects. </li>
-                <li>Sharing of sound samples used in this test is illegal.</li>
+                <li>Sharing of sound samples used in this test is illegal. Please do not store or share them.</li>
             </ul>
         </div>
         <br />
@@ -102,19 +102,25 @@
                 Please submit the results to our server. Entering a name or email address is not mandatory
                 but it would help us to contact you if we have further questions. You can also leave a comment.
             </p>
-            <p class="submitDownload">
-                <!-- edit here if you want to change the information about online submission, e.g. add privacy policy information -->
+            <!-- <p class="submitDownload">
+                edit here if you want to change the information about online submission, e.g. add privacy policy information
                 Please download and save the results. Entering a name or email address is not mandatory 
                 but it would help us to contact you if we have further questions. You can also leave a comment.
-            </p>
+            </p> -->
+
+            <div>Please download the results and attach them to an <a href="mailto:benedikt.wimmer01+usertest@estudiant.upf.edu?subject=Thesis-Questionnaire">email to benedikt.wimmer01+usertest@estudiant.upf.edu</a></div>
+            <br/>
+            <button id="BtnDownloadData" class="submitDownload" onclick="testHandle.DownloadTestResults();">Download</button>
+
+            <!-- <div>Send an email to <a href="mailto:benedikt.wimmer01+usertest@estudiant.upf.edu?subject=Thesis-Questionnaire">benedikt.wimmer01+usertest@estudiant.upf.edu</a></div> -->
             <table border=0 style="margin-left: auto;margin-right: auto;">
-            <tr><td>Name:</td><td><input id="UserName" type="text" size="40" maxlength="40" /></td></tr>
-            <tr><td>Email:</td><td><input id="UserEMail" type="text" size="40" maxlength="40" /></td></tr>
-            <tr><td></td><td><textarea id="UserComment" cols="40" rows="4">Your comment...</textarea></td></tr>
+            <!-- <tr><td>Name:</td><td><input id="UserName" type="text" size="40" maxlength="40" /></td></tr> -->
+            <!-- <tr><td>Email:</td><td><input id="UserEMail" type="text" size="40" maxlength="40" /></td></tr> -->
+            <!-- <tr><td></td><td><textarea id="UserComment" cols="40" rows="4">Your comment...</textarea></td></tr> -->
             </table>
             <br />
             <button id="BtnSubmitData" class="submitOnline" onclick="testHandle.SubmitTestResults();">Submit</button>
-            <button id="BtnDownloadData" class="submitDownload" onclick="testHandle.DownloadTestResults();">Download</button>
+            
             <p class="submitEmail error">
                 <!-- edit here if you want to change the information about email submission, e.g. add privacy policy information -->
                 Results should be send to <span class="supervisorEmail"></span>
