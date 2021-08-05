@@ -22,7 +22,7 @@ var TestConfig = {
 
     //easy one
     {
-      "Advise": "<ol style='text-align:left'><li>Please listen to <b>ALL</b> samples first. Listen <b>TO THE END</b> of each.</li> <li>Then rate them based on their <b>QUALITY</b></li></ol>",
+      "Advise": "<ol style='text-align:left'><li>Please listen to <b>ALL</b> samples first. Listen <b>TO THE END</b> of each.</li> <li>Then rate them based on their <b>QUALITY</b> and <b>ABSENCE OF NOISE</b></li></ol>",
       "Name": "Denoising",
       "TestID": "denoise_0",
       "Files": {
@@ -34,7 +34,7 @@ var TestConfig = {
 
     //easy one
     {
-      "Advise": "<ol style='text-align:left'><li>Please listen to <b>ALL</b> samples first. Listen <b>TO THE END</b> of each.</li> <li>Then rate them based on their <b>QUALITY</b></li></ol>",
+      "Advise": "<ol style='text-align:left'><li>Please listen to <b>ALL</b> samples first. Listen <b>TO THE END</b> of each.</li> <li>Then rate them based on their <b>QUALITY</b> and <b>ABSENCE OF NOISE</b></li></ol>",
       "Name": "Denoising",
       "TestID": "denoise_1",
       "Files": {
@@ -58,7 +58,7 @@ var TestConfig = {
     
     //easy one
     {
-      "Advise": "<ol style='text-align:left'><li>Please listen to <b>ALL</b> samples first. Listen <b>TO THE END</b> of each.</li> <li>Then rate them based on their <b>QUALITY</b></li></ol>",
+      "Advise": "<ol style='text-align:left'><li>Please listen to <b>ALL</b> samples first. Listen <b>TO THE END</b> of each.</li> <li>Then rate them based on their <b>QUALITY</b> and <b>ABSENCE OF NOISE</b></li></ol>",
       "Name": "Denoising",
       "TestID": "denoise_3",
       "Files": {
@@ -70,7 +70,7 @@ var TestConfig = {
 
     //harder one
     {
-      "Advise": "<ol style='text-align:left'><li>Please listen to <b>ALL</b> samples first. Listen <b>TO THE END</b> of each.</li> <li>Then rate them based on their <b>QUALITY</b></li></ol>",
+      "Advise": "<ol style='text-align:left'><li>Please listen to <b>ALL</b> samples first. Listen <b>TO THE END</b> of each.</li> <li>Then rate them based on their <b>QUALITY</b> and <b>ABSENCE OF NOISE</b></li></ol>",
       "Name": "Denoising",
       "TestID": "denoise_4",
       "Files": {
@@ -82,7 +82,7 @@ var TestConfig = {
 
     //easy one
     {
-      "Advise": "<ol style='text-align:left'><li>Please listen to <b>ALL</b> samples first. Listen <b>TO THE END</b> of each.</li> <li>Then rate them based on their <b>QUALITY</b></li></ol>",
+      "Advise": "<ol style='text-align:left'><li>Please listen to <b>ALL</b> samples first. Listen <b>TO THE END</b> of each.</li> <li>Then rate them based on their <b>QUALITY</b> and <b>ABSENCE OF NOISE</b></li></ol>",
       "Name": "Denoising",
       "TestID": "denoise_5",
       "Files": {
