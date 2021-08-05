@@ -9,7 +9,7 @@ var TestConfig = {
   "RateDefaultValue":50,
   "ShowFileIDs": false,
   "ShowResults": false,
-  "LoopByDefault": false,
+  "LoopByDefault": true,
   "EnableABLoop": true,
   "EnableOnlineSubmission": false,
   "BeaqleServiceURL": "/web_service/beaqleJS_Service.php",
@@ -91,9 +91,88 @@ var TestConfig = {
             "NOISY": "audio/samples/DENOISE_CANTAMUS/NOISY/Tenor_294_1696.wav",
         }
     },
+
+    // =============================================
+    // PARALLEL
+    // =============================================
+
+    {
+      "Advise": "<ol style='text-align:left'><li>Please listen to <b>REFERENCE</b> first</li><li>Then listen to <b>ALL</b> samples (Test Items). Listen <b>TO THE END</b> of each.</li> <li>Then rate items on <b>Basic Audio Quality (BAQ)</b>. BAQ is  is used to judge <b>any and all detected differences</b> between the reference and the test item. On the scale, this is more informally referred to as <b><em>difference</em></b></li></ol>",
+      "Name": "Denoising",
+      "TestID": "denoise_parallel_0",
+      "Files": {
+            "Reference": "audio/samples/PARALLEL/CLEAN/f1_caro_straight_NOISE_257259_4286987-hq_c0.wav",
+            "FSN": "audio/samples/PARALLEL/FSN_NEW/f1_caro_straight_NOISE_257259_4286987-hq_c0.wav",
+            "NOISY": "audio/samples/PARALLEL/NOISY/f1_caro_straight_NOISE_257259_4286987-hq_c0.wav",
+            "WUNET": "audio/samples/PARALLEL/WUNet/f1_caro_straight_NOISE_257259_4286987-hq_c0.wav",
+        }
+    },
+
+    {
+      "Advise": "<ol style='text-align:left'><li>Please listen to <b>REFERENCE</b> first</li><li>Then listen to <b>ALL</b> samples (Test Items). Listen <b>TO THE END</b> of each.</li> <li>Then rate items on <b>Basic Audio Quality (BAQ)</b>. BAQ is  is used to judge <b>any and all detected differences</b> between the reference and the test item. On the scale, this is more informally referred to as <b><em>difference</em></b></li></ol>",
+      "Name": "Denoising",
+      "TestID": "denoise_parallel_1",
+      "Files": {
+            "Reference": "audio/samples/PARALLEL/CLEAN/m1_dona_straight_NOISE_502455_9289659-hq_c1.wav",
+            "FSN": "audio/samples/PARALLEL/FSN_NEW/m1_dona_straight_NOISE_502455_9289659-hq_c1.wav",
+            "NOISY": "audio/samples/PARALLEL/NOISY/m1_dona_straight_NOISE_502455_9289659-hq_c1.wav",
+            "WUNET": "audio/samples/PARALLEL/WUNet/m1_dona_straight_NOISE_502455_9289659-hq_c1.wav",
+        }
+    },
+
+    {
+      "Advise": "<ol style='text-align:left'><li>Please listen to <b>REFERENCE</b> first</li><li>Then listen to <b>ALL</b> samples (Test Items). Listen <b>TO THE END</b> of each.</li> <li>Then rate items on <b>Basic Audio Quality (BAQ)</b>. BAQ is  is used to judge <b>any and all detected differences</b> between the reference and the test item. On the scale, this is more informally referred to as <b><em>difference</em></b></li></ol>",
+      "Name": "Denoising",
+      "TestID": "denoise_parallel_2",
+      "Files": {
+            "Reference": "audio/samples/PARALLEL/CLEAN/m6_caro_straight_NOISE_EM32_403a_1_Noise_Fan_c19.wav",
+            "FSN": "audio/samples/PARALLEL/FSN_NEW/m6_caro_straight_NOISE_EM32_403a_1_Noise_Fan_c19.wav",
+            "NOISY": "audio/samples/PARALLEL/NOISY/m6_caro_straight_NOISE_EM32_403a_1_Noise_Fan_c19.wav",
+            "WUNET": "audio/samples/PARALLEL/WUNet/m6_caro_straight_NOISE_EM32_403a_1_Noise_Fan_c19.wav",
+        }
+    },
+
+    {
+      "Advise": "<ol style='text-align:left'><li>Please listen to <b>REFERENCE</b> first</li><li>Then listen to <b>ALL</b> samples (Test Items). Listen <b>TO THE END</b> of each.</li> <li>Then rate items on <b>Basic Audio Quality (BAQ)</b>. BAQ is  is used to judge <b>any and all detected differences</b> between the reference and the test item. On the scale, this is more informally referred to as <b><em>difference</em></b></li></ol>",
+      "Name": "Denoising",
+      "TestID": "denoise_parallel_3",
+      "Files": {
+            "Reference": "audio/samples/PARALLEL/CLEAN/m7_caro_straight_NOISE_ch07.wav",
+            "FSN": "audio/samples/PARALLEL/FSN_NEW/m7_caro_straight_NOISE_ch07.wav",
+            "NOISY": "audio/samples/PARALLEL/NOISY/m7_caro_straight_NOISE_ch07.wav",
+            "WUNET": "audio/samples/PARALLEL/WUNet/m7_caro_straight_NOISE_ch07.wav",
+        }
+    },
+
+    {
+      "Advise": "<ol style='text-align:left'><li>Please listen to <b>REFERENCE</b> first</li><li>Then listen to <b>ALL</b> samples (Test Items). Listen <b>TO THE END</b> of each.</li> <li>Then rate items on <b>Basic Audio Quality (BAQ)</b>. BAQ is  is used to judge <b>any and all detected differences</b> between the reference and the test item. On the scale, this is more informally referred to as <b><em>difference</em></b></li></ol>",
+      "Name": "Denoising",
+      "TestID": "denoise_parallel_4",
+      "Files": {
+            "Reference": "audio/samples/PARALLEL/CLEAN/f1_caro_vibrato_NOISE_ch14.wav",
+            "FSN": "audio/samples/PARALLEL/FSN_NEW/f1_caro_vibrato_NOISE_ch14.wav",
+            "NOISY": "audio/samples/PARALLEL/NOISY/f1_caro_vibrato_NOISE_ch14.wav",
+            "WUNET": "audio/samples/PARALLEL/WUNet/f1_caro_vibrato_NOISE_ch14.wav",
+        }
+    },
+    {
+      "Advise": "<ol style='text-align:left'><li>Please listen to <b>REFERENCE</b> first</li><li>Then listen to <b>ALL</b> samples (Test Items). Listen <b>TO THE END</b> of each.</li> <li>Then rate items on <b>Basic Audio Quality (BAQ)</b>. BAQ is  is used to judge <b>any and all detected differences</b> between the reference and the test item. On the scale, this is more informally referred to as <b><em>difference</em></b></li></ol>",
+      "Name": "Denoising",
+      "TestID": "denoise_parallel_5",
+      "Files": {
+            "Reference": "audio/samples/PARALLEL/CLEAN/m3_row_spoken_NOISE_ch06.wav",
+            "FSN": "audio/samples/PARALLEL/FSN_NEW/m3_row_spoken_NOISE_ch06.wav",
+            "NOISY": "audio/samples/PARALLEL/NOISY/m3_row_spoken_NOISE_ch06.wav",
+            "WUNET": "audio/samples/PARALLEL/WUNet/m3_row_spoken_NOISE_ch06.wav",
+        }
+    },
+
+    // =============================================
+    // LRM
+    // =============================================
     
     {
-      "Advise": "<ol style='text-align:left'><li>Please listen to <b>REFERENCE</b> first</li><li>Then listen to <b>ALL</b> samples (Test Items). Listen <b>TO THE END</b> of each.</li> <li>Then rate them based on <b>how similar they are to the REFERENCE</b></li></ol>",
+      "Advise": "<ol style='text-align:left'><li>Please listen to <b>REFERENCE</b> first</li><li>Then listen to <b>ALL</b> samples (Test Items). Listen <b>TO THE END</b> of each.</li> <li>Then rate items on <b>Basic Audio Quality (BAQ)</b>. BAQ is  is used to judge <b>any and all detected differences</b> between the reference and the test item. On the scale, this is more informally referred to as <b><em>difference</em></b></li></ol>",
       "Name": "Leakage Removal",
       "TestID": "lrm_0",
       "Files": {
@@ -105,7 +184,7 @@ var TestConfig = {
     },
 
     {
-      "Advise": "<ol style='text-align:left'><li>Please listen to <b>REFERENCE</b> first</li><li>Then listen to <b>ALL</b> samples (Test Items). Listen <b>TO THE END</b> of each.</li> <li>Then rate them based on <b>how similar they are to the REFERENCE</b></li></ol>",
+      "Advise": "<ol style='text-align:left'><li>Please listen to <b>REFERENCE</b> first</li><li>Then listen to <b>ALL</b> samples (Test Items). Listen <b>TO THE END</b> of each.</li> <li>Then rate items on <b>Basic Audio Quality (BAQ)</b>. BAQ is  is used to judge <b>any and all detected differences</b> between the reference and the test item. On the scale, this is more informally referred to as <b><em>difference</em></b></li></ol>",
       "Name": "Leakage Removal",
       "TestID": "lrm_1",
       "Files": {
@@ -117,7 +196,7 @@ var TestConfig = {
     },
 
     {
-      "Advise": "<ol style='text-align:left'><li>Please listen to <b>REFERENCE</b> first</li><li>Then listen to <b>ALL</b> samples (Test Items). Listen <b>TO THE END</b> of each.</li> <li>Then rate them based on <b>how similar they are to the REFERENCE</b></li></ol>",
+      "Advise": "<ol style='text-align:left'><li>Please listen to <b>REFERENCE</b> first</li><li>Then listen to <b>ALL</b> samples (Test Items). Listen <b>TO THE END</b> of each.</li> <li>Then rate items on <b>Basic Audio Quality (BAQ)</b>. BAQ is  is used to judge <b>any and all detected differences</b> between the reference and the test item. On the scale, this is more informally referred to as <b><em>difference</em></b></li></ol>",
       "Name": "Leakage Removal",
       "TestID": "lrm_2",
       "Files": {
@@ -129,7 +208,7 @@ var TestConfig = {
     },
 
     {
-      "Advise": "<ol style='text-align:left'><li>Please listen to <b>REFERENCE</b> first</li><li>Then listen to <b>ALL</b> samples (Test Items). Listen <b>TO THE END</b> of each.</li> <li>Then rate them based on <b>how similar they are to the REFERENCE</b></li></ol>",
+      "Advise": "<ol style='text-align:left'><li>Please listen to <b>REFERENCE</b> first</li><li>Then listen to <b>ALL</b> samples (Test Items). Listen <b>TO THE END</b> of each.</li> <li>Then rate items on <b>Basic Audio Quality (BAQ)</b>. BAQ is  is used to judge <b>any and all detected differences</b> between the reference and the test item. On the scale, this is more informally referred to as <b><em>difference</em></b></li></ol>",
       "Name": "Leakage Removal",
       "TestID": "lrm_3",
       "Files": {
@@ -141,7 +220,7 @@ var TestConfig = {
     },
 
     {
-      "Advise": "<ol style='text-align:left'><li>Please listen to <b>REFERENCE</b> first</li><li>Then listen to <b>ALL</b> samples (Test Items). Listen <b>TO THE END</b> of each.</li> <li>Then rate them based on <b>how similar they are to the REFERENCE</b></li></ol>",
+      "Advise": "<ol style='text-align:left'><li>Please listen to <b>REFERENCE</b> first</li><li>Then listen to <b>ALL</b> samples (Test Items). Listen <b>TO THE END</b> of each.</li> <li>Then rate items on <b>Basic Audio Quality (BAQ)</b>. BAQ is  is used to judge <b>any and all detected differences</b> between the reference and the test item. On the scale, this is more informally referred to as <b><em>difference</em></b></li></ol>",
       "Name": "Leakage Removal",
       "TestID": "lrm_4",
       "Files": {
@@ -153,7 +232,7 @@ var TestConfig = {
     },
 
     {
-      "Advise": "<ol style='text-align:left'><li>Please listen to <b>REFERENCE</b> first</li><li>Then listen to <b>ALL</b> samples (Test Items). Listen <b>TO THE END</b> of each.</li> <li>Then rate them based on <b>how similar they are to the REFERENCE</b></li></ol>",
+      "Advise": "<ol style='text-align:left'><li>Please listen to <b>REFERENCE</b> first</li><li>Then listen to <b>ALL</b> samples (Test Items). Listen <b>TO THE END</b> of each.</li> <li>Then rate items on <b>Basic Audio Quality (BAQ)</b>. BAQ is  is used to judge <b>any and all detected differences</b> between the reference and the test item. On the scale, this is more informally referred to as <b><em>difference</em></b></li></ol>",
       "Name": "Leakage Removal",
       "TestID": "lrm_5",
       "Files": {

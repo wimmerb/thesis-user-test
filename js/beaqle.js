@@ -896,7 +896,7 @@ $.extend({ alert: function (message, title) {
         var EvalResults = this.TestState.EvalResults;        
         EvalResults.push(UserObj)
 
-        saveTextAsFile(JSON.stringify(EvalResults), getDateStamp() + "_" + UserObj.UserName + ".txt");
+        saveTextAsFile(JSON.stringify(EvalResults), getDateStamp() + "_" + UserObj.UserName + ".json");
 
         this.TestState.TestIsRunning = 0;
     }
@@ -1162,7 +1162,10 @@ MushraTest.prototype.createTestDOM = function (TestIdx) {
             if (this.TestConfig.ShowFileIDs) {
                     fileIDstr = fileID;
             }
-            cell[3].innerHTML = "<div class='rateSlider' id='slider"+fileID+"' rel='"+relID+"'>"+fileIDstr+"</div>";
+            if (this.TestState.FileMappings[TestIdx].includes("Reference"))
+                cell[3].innerHTML = "<div class='rateSlider' id='slider"+fileID+"' rel='"+relID+"'>"+fileIDstr+"</div>";
+            else
+                cell[3].innerHTML = "<div class='rateSlider' id='slider"+fileID+"' rel='"+relID+"' style='width:80%;margin:auto'>"+fileIDstr+"</div>";
 
             this.addAudio(TestIdx, fileID, relID);
 
@@ -1172,16 +1175,31 @@ MushraTest.prototype.createTestDOM = function (TestIdx) {
         $('#TableContainer').append(tab);
 
         var mushraConf = this.TestConfig;
-        $('.rateSlider').each( function() {
-            $(this).slider({
-                    value: mushraConf.RateDefaultValue,
-                    min: mushraConf.RateMinValue,
-                    max: mushraConf.RateMaxValue,
-                    animate: false,
-                    orientation: "horizontal"
+
+        if (this.TestState.FileMappings[TestIdx].includes("Reference")){
+            $('.rateSlider').each( function() {
+                $(this).slider({
+                        value: mushraConf.RateDefaultValue,
+                        min: mushraConf.RateMinValue,
+                        max: mushraConf.RateMaxValue,
+                        animate: false,
+                        orientation: "horizontal"
+                });
+                //$(this).css('background-image', 'url('+mushraConf.RateScaleBgPng+')');
             });
-            $(this).css('background-image', 'url('+mushraConf.RateScaleBgPng+')');
-        });
+        }
+        else{
+            $('.rateSlider').each( function() {
+                $(this).slider({
+                        value: 3,
+                        min: 1,
+                        max: 5,
+                        animate: false,
+                        orientation: "horizontal"
+                });
+                //$(this).css('background-image', 'url('+mushraConf.RateScaleBgPng+')');
+            });
+        }
 
 }
 
