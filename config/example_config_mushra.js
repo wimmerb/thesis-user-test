@@ -236,10 +236,10 @@ var TestConfig = {
       "Name": "Leakage Removal",
       "TestID": "lrm_5",
       "Files": {
-            "Reference": "audio/samples/LRM_ALIGNED/CLEAN/00043__Cantoría__Sus, sus, sus__tenor.wav",
-            "FSN": "audio/samples/LRM_ALIGNED/FSN_FULL_DUAL/TEST_SET_FOR_HUMAN_ALIGNED00043__Cantoría__Sus, sus, sus__tenor.wav",
-            "NOISY": "audio/samples/LRM_ALIGNED/NOISY/00043__Cantoría__Sus, sus, sus__tenor.wav",
-            "FSN-BASELINE": "audio/samples/LRM_ALIGNED/BASELINE_NO_HINT/TEST_SET_FOR_HUMAN_ALIGNED00043__Cantoría__Sus, sus, sus__tenor.wav",
+            "Reference": "audio/samples/LRM_ALIGNED/CLEAN/00025__Cantoría__Sus, sus, sus__alto.wav",
+            "FSN": "audio/samples/LRM_ALIGNED/FSN_FULL_DUAL/00025__Cantoría__Sus, sus, sus__alto.wav",
+            "NOISY": "audio/samples/LRM_ALIGNED/NOISY/00025__Cantoría__Sus, sus, sus__alto.wav",
+            "FSN-BASELINE": "audio/samples/LRM_ALIGNED/00025__Cantoría__Sus, sus, sus__alto.wav",
         }
     },
   ]
